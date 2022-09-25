@@ -63,6 +63,27 @@ public class Main {
         int totalWhitePaintPot = whitePaintPot * totalClassroom;
         int totalBrownPaintPot = brownPaintPot * totalClassroom;
         System.out.println ("В школе, где " +totalClassroom+ " классов, нужно " +totalWhitePaintPot+ " банок белой краски и " +totalBrownPaintPot+ " банок коричневой краски.");
+        System.out.println ("Задача 6 ");
+        byte banana = 80;
+        byte milk100Ml = 105;
+        byte iceCreamBriquette = 100;
+        byte egg = 70;
+        System.out.println ("Банан весит: " +banana+ " грамм");
+        System.out.println ("Молоко 100 мл весит: " +milk100Ml+ " грамм");
+        System.out.println ("Мороженое один брикет весит: " +iceCreamBriquette+ " грамм");
+        System.out.println ("Яйцо весит: " +egg+ " грамм");
+        int bananas5 = banana * 5;
+        int milk200Ml = milk100Ml * 2;
+        int iceCream2Briquette = iceCreamBriquette * 2;
+        int egg4 = egg * 4;
+        System.out.println ("Вес всех бананов по рецепту: " +bananas5+ " грамм");
+        System.out.println ("Вес молока по рецепту: " +milk200Ml+ " грамм");
+        System.out.println ("Вес мороженого по рецепту: " +iceCream2Briquette+ " грамм");
+        System.out.println ("Вес яйц по рецепту: " +egg4+ " грамм");
+        int sportsBreakfast = bananas5 + milk200Ml + iceCream2Briquette + egg4;
+        System.out.println ("Вес завтрака спорсмена по рецепту: " +sportsBreakfast+ " грамм");
+        float sportsBreakfastKg = sportsBreakfast/1000f;
+        System.out.println ("Вес завтрака спорсмена по рецепту: " +sportsBreakfastKg+ " кг.");
 
     }
 }
