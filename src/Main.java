@@ -101,7 +101,36 @@ public class Main {
         System.out.println ("Спортсмен теряет вес " +totalWeightOut+ " кг за " +totalDayWeightOut2Kg+ " дней при ежедневном сбросе 500 грамм.");
         float averageWeightOutDays = (totalDayWeightOut1Kg + totalDayWeightOut2Kg)/2;
         System.out.println ("В среднем спортсмен теряет вес: " +totalWeightOut+ " кг за " +averageWeightOutDays+ " дней.");
-
-
+        System.out.println ("Задача 8 ");
+        int wagesMonthMasha = 67760;
+        int wagesMonthDenis = 83690;
+        int wagesMonthKristina = 76230;
+        System.out.println ("Маша получает в месяц: " +wagesMonthMasha+ " рублей.");
+        System.out.println ("Денис получает в месяц: " +wagesMonthDenis+ " рублей.");
+        System.out.println ("Кристина получает в месяц: " +wagesMonthKristina+ " рублей.");
+        int wagesYearMasha = wagesMonthMasha *12;
+        int wagesYearDenis = wagesMonthDenis * 12;
+        int wagesYearKristina = wagesMonthKristina * 12;
+        System.out.println ("Маша получает в год: " +wagesYearMasha+ " рублей.");
+        System.out.println ("Денис получает в год: " +wagesYearDenis+ " рублей.");
+        System.out.println ("Кристина получает в год: " +wagesYearKristina+ " рублей.");
+        float wagesMonthMashaUp = wagesMonthMasha * 1.1f;
+        float wagesMonthDenisUp = wagesMonthDenis * 1.1f;
+        float wagesMonthKristinaUp = wagesMonthKristina *1.1f;
+        System.out.println ("После увеличения зарплаты на 10%, Маша получает в месяц: " +wagesMonthMashaUp+ " рублей.");
+        System.out.println ("После увеличения зарплаты на 10%, Денис получает в месяц: " +wagesMonthDenisUp+ " рублей.");
+        System.out.println ("После увеличения зарплаты на 10%, Кристина получает в месяц: " +wagesMonthKristinaUp+ " рублей.");
+        float wagesYearMashaUp = wagesMonthMashaUp * 12;
+        float wagesYearDenisUp = wagesMonthDenisUp * 12;
+        float wagesYearKristinaUp = wagesMonthKristinaUp * 12;
+        System.out.println ("После увеличения зарплаты на 10%, Маша получает в год: " +wagesYearMashaUp+ " рублей.");
+        System.out.println ("После увеличения зарплаты на 10%, Денис получает в год: " +wagesYearDenisUp+ " рублей.");
+        System.out.println ("После увеличения зарплаты на 10%, Кристина получает в год: " +wagesYearKristinaUp+ " рублей.");
+        float wageDifferenceYearMasha = wagesYearMashaUp - wagesYearMasha;
+        float wageDifferenceYearDenis = wagesYearDenisUp - wagesYearDenis;
+        float wageDifferenceYearKristina = wagesYearMashaUp - wagesYearMasha;
+        System.out.println ("Маша теперь получает в месяц: " +wagesMonthMashaUp+ " рублей. Годовой доход вырос на : " +wageDifferenceYearMasha+ " рублей.");
+        System.out.println ("Денис теперь получает в месяц: " +wagesMonthDenisUp+ " рублей. Годовой доход вырос на : " +wageDifferenceYearDenis+ " рублей.");
+        System.out.println ("Кристина теперь получает в месяц: " +wagesMonthKristinaUp+ " рублей. Годовой доход вырос на : " +wageDifferenceYearKristina+ " рублей.");
     }
 }
