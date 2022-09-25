@@ -50,6 +50,19 @@ public class Main {
         System.out.println ("За 3 дня машина произвела бутылок " +machineProductivity3Day+ " штук");
         int machineProductivityMonth = machineProductivity3Day * 10;
         System.out.println ("За месяц машина произвела бутылок " +machineProductivityMonth+ " штук");
+        System.out.println ("Задача 5 ");
+        byte whitePaintPot = 2;
+        byte brownPaintPot = 4;
+        System.out.println ("На ремонт одного класса требуется: " +whitePaintPot+ " банки белой краски и " +brownPaintPot+ " банки коричневой краски");
+        int totalPaintPotClassroom = whitePaintPot + brownPaintPot;
+        System.out.println ("На ремонт одного класса требуется всего: " +totalPaintPotClassroom+ " банок краски");
+        int totalPaintPotSchool = 120;
+        System.out.println ("На ремонт школы требуется всего: " +totalPaintPotSchool+ " банок краски");
+        int totalClassroom = totalPaintPotSchool/totalPaintPotClassroom;
+        System.out.println ("Всего классов в школе: " +totalClassroom);
+        int totalWhitePaintPot = whitePaintPot * totalClassroom;
+        int totalBrownPaintPot = brownPaintPot * totalClassroom;
+        System.out.println ("В школе, где " +totalClassroom+ " классов, нужно " +totalWhitePaintPot+ " банок белой краски и " +totalBrownPaintPot+ " банок коричневой краски.");
 
     }
 }
