@@ -39,8 +39,17 @@ public class Main {
         System.out.println ("Общее количество учеников в трёх классах: " + totalStudents);
         int oneStudentPaper = paper / totalStudents;
         System.out.println ("На каждого ученика рассчитано " +oneStudentPaper+ " листов бумаги.");
-
-
+        System.out.println ("Задача 4 ");
+        byte machineProductivity2Min = 16;
+        System.out.println ("Производительность машины за 2 минуты " +machineProductivity2Min+ " бутылок");
+        int machineProductivity20Min = machineProductivity2Min * 10;
+        System.out.println ("За 20 минуту машина произвела бутылок " +machineProductivity20Min+ " штук");
+        int machineProductivity1Day = machineProductivity20Min * 3 * 24;
+        System.out.println ("За сутки машина произвела бутылок " +machineProductivity1Day+ " штук");
+        int machineProductivity3Day = machineProductivity1Day * 3;
+        System.out.println ("За 3 дня машина произвела бутылок " +machineProductivity3Day+ " штук");
+        int machineProductivityMonth = machineProductivity3Day * 10;
+        System.out.println ("За месяц машина произвела бутылок " +machineProductivityMonth+ " штук");
 
     }
 }
