@@ -84,6 +84,24 @@ public class Main {
         System.out.println ("Вес завтрака спорсмена по рецепту: " +sportsBreakfast+ " грамм");
         float sportsBreakfastKg = sportsBreakfast/1000f;
         System.out.println ("Вес завтрака спорсмена по рецепту: " +sportsBreakfastKg+ " кг.");
+        System.out.println ("Задача 7 ");
+        short oneDayWeightOut1 = 250;
+        short oneDayWeightOut2 = 500;
+        short totalWeightOut = 7;
+        System.out.println ("Спортсмен теряет вес за один день: " +oneDayWeightOut1+ " грамм.");
+        System.out.println ("Спортсмен теряет вес за один день: " +oneDayWeightOut2+ " грамм.");
+        System.out.println ("Спортсмен должен сбросить вес: " +totalWeightOut+ " кг.");
+        float oneDayWeightOut1Kg = oneDayWeightOut1 / 1000f;
+        float oneDayWeightOut2Kg = oneDayWeightOut2 / 1000f;
+        System.out.println ("Спортсмен теряет вес за один день: " +oneDayWeightOut1Kg+ " кг.");
+        System.out.println ("Спортсмен теряет вес за один день: " +oneDayWeightOut2Kg+ " кг.");
+        float totalDayWeightOut1Kg = totalWeightOut / oneDayWeightOut1Kg;
+        float totalDayWeightOut2Kg = totalWeightOut / oneDayWeightOut2Kg;
+        System.out.println ("Спортсмен теряет вес " +totalWeightOut+ " кг за " +totalDayWeightOut1Kg+ " дней при ежедневном сбросе 250 грамм.");
+        System.out.println ("Спортсмен теряет вес " +totalWeightOut+ " кг за " +totalDayWeightOut2Kg+ " дней при ежедневном сбросе 500 грамм.");
+        float averageWeightOutDays = (totalDayWeightOut1Kg + totalDayWeightOut2Kg)/2;
+        System.out.println ("В среднем спортсмен теряет вес: " +totalWeightOut+ " кг за " +averageWeightOutDays+ " дней.");
+
 
     }
 }
