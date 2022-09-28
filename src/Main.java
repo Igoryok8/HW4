@@ -132,5 +132,6 @@ public class Main {
         System.out.println ("Маша теперь получает в месяц: " +wagesMonthMashaUp+ " рублей. Годовой доход вырос на : " +wageDifferenceYearMasha+ " рублей.");
         System.out.println ("Денис теперь получает в месяц: " +wagesMonthDenisUp+ " рублей. Годовой доход вырос на : " +wageDifferenceYearDenis+ " рублей.");
         System.out.println ("Кристина теперь получает в месяц: " +wagesMonthKristinaUp+ " рублей. Годовой доход вырос на : " +wageDifferenceYearKristina+ " рублей.");
+        System.out.println ("ДЗ выполнено! ");
     }
 }
